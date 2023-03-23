@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  display: flex;
+  gap: 10px;
+}
+.box1 {
+  display: flex;
+  flex: 2;
+  border: none;
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  background-color: blueviolet;
+  /* margin-right: 5px; */
+}
+.box2 {
+  display: flex;
+  flex: 1;
+  border: none;
+  border-radius: 15px;
+  width: 250px;
+  height: 350px;
+  background-color: blueviolet;
+  /* margin-right: 5px; */
+}
+.box3 {
+  display: flex;
+  flex: 2;
+  border: none;
+  /* border-radius: 15px; */
+  width: 360px;
+  height: 350px;
+  /* background-color: green; */
+  /* background-color: blueviolet; */
+  /* margin-right: 5px; */
+}
+
+.box {
+  /* background-color: green; */
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* row-gap: 10px;
+  column-gap: 1em; */
+}
+.sub-box1 {
+  /* display: flex; */
+  /* width: 100%; */
+  position: inherit;
+  width: 385px;
+  height: 160px;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+}
+.sub-box2 {
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  background-color: red;
+  width: 180px;
+  height: 170px;
+}
+.sub-box3 {
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 67%;
+  width: 180px;
+  height: 170px;
+  background-color: yellow;
+}
+
+.box4 {
+  display: flex;
+  flex: 1;
+  /* margin-right: 5px; */
+  border: none;
+  border-radius: 15px;
+  width: 250px;
+  height: 350px;
+  background-color: blueviolet;
+}
